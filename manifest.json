@@ -1,0 +1,28 @@
+{
+     "name": "PWA Cookbook",
+     "short_name": "PWACookbook",
+     "start_url": "./index.html",
+     "id": "./index.html",
+     "display": "standalone",
+	"background_color": "red",
+     "discrbtion": "A Cookbook that can save time during cooking.",
+     "theme_color": "#ffffff",
+	"orientation": "portrait-primary",
+
+"icons":[ 
+{
+     "src": "./img/icons/Mylogo.png",
+     "sizes":"32x32",
+     "type": "image/png",
+     "purpose": "any"
+   },
+   {
+     "src": "./img/icons/Mylogo.png",
+     "sizes":"16x16",
+     "type": "image/png",
+     "purpose": "any"
+   }
+
+]
+
+}
