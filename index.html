@@ -11,10 +11,12 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" href="./css/styles.css" rel="stylesheet">
   <script type="text/javascript" src="./js/materialize.min.js"></script>
-  <script src="./js/ui.js" defer></script>
+  
   <link rel="favicon" href="#">
   <link rel="manifest" href="./manifest.json">
-  <script src="./js/App.js" defer></script>
+  <script src="./js/firestore-dishes.js" type="module" defer></script>
+  <script src="./js/App.js" type="module" defer></script>
+  <script src="./js/ui.js" type="module" defer></script>
 
   <!-- Favicon packege with defferent size icons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -68,23 +70,33 @@
   </div>
 
   <!-- add recipe side nav -->
-  <div id="side-form" class="sidenav side-form">
-    <form class="add-recipe container section">
-      <h6 >New Recipe</h6>
-      <div class="divider"></div>
-      <div class="input-field">
-        <input placeholder="e.g. Ninja soup" id="title" type="text" class="validate">
-        <label for="title">Recipe Title</label>
-      </div>
-      <div class="input-field">
-        <input placeholder="e.g. Tofu, mushroom, garlic" id="ingredients" type="text" class="validate">
-        <label for="ingredients">Ingredients</label>
-      </div>
-      <div class="input-field center">
-        <button class="btn-small">Add</button>
-      </div>
-    </form>
-  </div>
+    <div id="side-form" class="sidenav side-form">
+      <form class="add-recipe container section">
+        <h6>New Recipe</h6>
+        <div class="divider"></div>
+        <div class="input-field">
+          <input
+            placeholder="e.g. Ninja soup"
+            id="title"
+            type="text"
+            class="validate"
+          />
+          <label for="title">Recipe Title</label>
+        </div>
+        <div class="input-field">
+          <input
+            placeholder="e.g. Tofu, mushroom, garlic"
+            id="ingredients"
+            type="text"
+            class="validate"
+          />
+          <label for="ingredients">Ingredients</label>
+        </div>
+        <div class="input-field center">
+          <button class="btn-small">Add</button>
+        </div>
+      </form>
+    </div>
 
 </body>
 </html>

@@ -10,6 +10,7 @@ const assets = [
   "./index.html",
   "./js/App.js",
   "./js/ui.js",
+  "./js/firestore.config.js",
   "./js/materialize.min.js",
   "./css/styles.css",
   "./css/materialize.min.css",
